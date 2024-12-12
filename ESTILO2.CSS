@@ -1,0 +1,82 @@
+body {
+    height: 100vh; 
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+.divider {
+    width: 100%; 
+    height: 50%; 
+    background-color: #732c8f; 
+    position: absolute; 
+    top: 0%; 
+    left: 0%;
+    border-radius: 0px 0px 40px 40px; 
+}
+.logo img{
+    top: 22%;
+    left:50%;
+    max-width: 300px;
+   position: absolute;
+   transform: translate(-50%, -50%); 
+}
+
+.box {
+    width: 50%; 
+    height: 47%;
+    background-color: white;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+    width: 70%; 
+    top: 40%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%, -50%); 
+}
+
+.form button {
+        width: 30%; 
+        background-color: #732c8f;
+        position: relative;
+        top: 87%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        border-radius: 10px; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    }
+.form h3{
+    font-size:68%;
+    color:#732c8f;
+
+}
+
+.texto-login{
+    color: #000000;
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+.icon {
+    top: 90%;
+    left: 50%;
+    position: absolute;
+    transform: translate(70%, -50%);
+}
+.icon i {
+    font-size: 200%;
+    margin: -40%;
+}
